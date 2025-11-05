@@ -174,9 +174,11 @@ git remote add origin https://github.com/username/repository-name.git
 # Verify remote
 git remote -v
 
-# Push to GitHub
+# Push to GitHub (use 'main' or 'master' depending on your default branch)
 git push -u origin main
 ```
+
+> **Note**: GitHub changed the default branch name from `master` to `main` in 2020. Older repositories may still use `master`, while newer ones use `main`. Always check your repository's default branch name with `git branch`.
 
 ## Branching and Merging
 

@@ -52,6 +52,7 @@ git commit -am "message"    # Add and commit tracked files
 
 # Push to remote
 git push origin <branch>
+git push -u origin <branch>    # -u sets upstream tracking
 
 # Pull from remote
 git pull origin <branch>

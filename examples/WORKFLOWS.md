@@ -153,12 +153,14 @@ git pull origin main
 git status
 
 # 4. Open conflicted file(s) in editor
-# Look for conflict markers:
+# Git inserts conflict markers into the file as literal text:
 <<<<<<< HEAD
 Your current changes
 =======
 Incoming changes
 >>>>>>> branch-name
+# These markers show: your changes (HEAD), a separator (=======), 
+# and the incoming changes (branch-name)
 
 # 5. Edit the file to resolve conflicts
 # Remove conflict markers and keep desired changes
